@@ -1,0 +1,102 @@
+/* This stylesheet is used to style the admin option form of the plugin. */
+
+/* WP_GraphViz Custom */
+ div .icon32.icon-post,#icon-wp-graphviz
+ {
+    background: url("../assets/icon-wp-graphviz.png") no-repeat scroll transparent;
+}
+
+
+/***************************
+ * Tables
+ */
+ input.disabled {
+    background: none repeat scroll 0 0 #FEFEFE;
+    border: 1px solid #DDDDDD;
+    color: #888888;     
+ }
+
+
+/***************************
+ * Shortcodes
+ */
+th.wp_graphviz_shortcodes_cell {
+	padding: 8px 15px;
+}
+td.wp_graphviz_shortcodes_cell {
+    display: table-cell;
+    word-wrap: break-word;
+    word-break: keep-all;
+	padding: 8px 15px;
+}
+.wp_graphviz_shortcodes_cell ul {
+    list-style: disc outside none;
+	margin: 0;
+}
+tr.wp_graphviz_shortcodes_row.even {
+    background-color: #FFFFFF;
+}
+tr.wp_graphviz_shortcodes_row.even:hover {
+    background-color: #FFFFCC;
+}
+tr.wp_graphviz_shortcodes_row.odd {
+    background-color: #DDDDDD;
+}
+tr.wp_graphviz_shortcodes_row.odd:hover {
+    background-color: #FFFF99;
+}
+tr.wp_graphviz_shortcodes_row.invalid {
+    background-color: #FFCCCC;
+}
+tr.wp_graphviz_shortcodes_row.invalid:hover {
+    background-color: #FFDDDD;
+}
+#wp_graphviz_shortcodes_table {
+   margin: 0px;
+   padding: 0px;
+}
+#wp_graphviz_shortcodes_table th {
+    vertical-align: top;
+    background: #404040; /* for non-css3 browsers */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#808080', endColorstr=' #404040'); /* for IE */
+    background: -webkit-gradient(linear, left top, left bottom, from(#808080), to( #404040)); /* for webkit browsers */
+    background: -moz-linear-gradient(top,  #808080,   #404040); /* for firefox 3.6+ */
+    background-image: -moz-linear-gradient(center top , #808080, #404040);
+    text-decoration: none;
+	font-size: 14px;
+    color: #00FF00;
+    text-shadow: none;
+    font-weight: 500;
+    font-family: "Trebuchet MS", Helvetica, sans-serif; 
+}
+#wp_graphviz_shortcodes_table th.thnowrap {
+    white-space: nowrap;
+}
+div#wp_graphviz_table_wrapper {
+	border: 1px solid #CCCCCC;
+	margin: -1px 0 0;
+	padding: 0px;
+}
+
+/***************************
+ * Settings: General
+ **/
+
+#wpcontent .csl_select, #wpcontent .csl_option
+{
+    padding-right: 6px;
+}
+ 
+.tableRowHeader,.tableRowHeader td,.tableRowHeader th 
+{
+    background-color: black;
+    color: white;
+    font-weight: bold;
+}
+
+.tableRowHeader  td a,.tableRowHeader  th a
+{
+    color: #00aa00;
+    font-weight: bold;
+    text-decoration: underline;
+}
